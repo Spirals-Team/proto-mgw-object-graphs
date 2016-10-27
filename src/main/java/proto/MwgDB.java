@@ -12,6 +12,7 @@ public class MwgDB {
             _graph = new GraphBuilder()
                     .withMemorySize(10_000)
                     .build();
+            _graph.connect(null);
         }
         return _graph;
     }
