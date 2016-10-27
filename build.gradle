@@ -2,9 +2,15 @@ apply plugin: 'java'
 
 repositories {
     mavenCentral()
+    maven {
+      url 'http://spoon.gforge.inria.fr/repositories/releases'
+    }
+    maven {
+      url 'http://spoon.gforge.inria.fr/repositories/snapshots'
+    }
 }
 
 dependencies {
-  compile 'fr.inria.gforge.spoon:spoon-core:5.2.0'
+  compile 'fr.inria.gforge.spoon:spoon-core:5.4.0-SNAPSHOT'
 }
 
