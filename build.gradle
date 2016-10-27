@@ -15,5 +15,6 @@ dependencies {
 	compile 'org.kevoree.mwg:api:7'
     compile 'org.kevoree.mwg:core:7'
     compile 'org.kevoree.mwg.plugins:leveldb:7'
+    testCompile 'junit:junit:4.12'
 }
 
