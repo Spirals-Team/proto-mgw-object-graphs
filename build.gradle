@@ -12,5 +12,8 @@ repositories {
 
 dependencies {
   compile 'fr.inria.gforge.spoon:spoon-core:5.4.0-SNAPSHOT'
+	compile 'org.kevoree.mwg:api:7'
+    compile 'org.kevoree.mwg:core:7'
+    compile 'org.kevoree.mwg.plugins:leveldb:7'
 }
 
